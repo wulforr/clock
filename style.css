@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+body{
+    background:linear-gradient(to right, #1d2b64, #f8cdda);
+}
+.clock{
+    margin-top: 15%;
+    margin-left: 40%;
+    height:220px;
+    width:220px;
+    border: 20px solid white;
+    border-radius:50%;
+
+}
+.clock-face{
+    
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    transform: translateY(-3px);
+}
+.hand{
+    background: black;
+    height:4px;
+    width:50%;
+    margin-top:50%;
+    margin-left:0%;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+}
+.hour-hand{
+    width: 40%;
+    margin-left:22px;
+}
